@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 120px);
+    text-align: center;
+    background-image: url(../img/papel-pintado-geometrico-moderno-lineas-redondas_23-2148811528.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav .logo {
+    width: 200px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #262626;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero h1 {
+    padding: 10px;
+}
+
+.hero p {
+    padding: 10px;
+    width: 50%;
+    color: #262626;
+}
+
+.hero a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: brown;
+    border-radius: 10px;
+    
+}
+
+.preferidos {
+    padding: 20px;
+    height: auto;
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+}
+
+.preferidos h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.preferidos .preferidos-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.preferidos .preferidos-contenedor div {
+    width: 400px;
+    height: auto;
+    margin: 2px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+section div img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    
+}
+
+section div h3 {
+    margin: 10px 0;
+}
+
+section div a {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.icon {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+div a img {
+    width: 60px;
+    height: auto;
+}
+
+
+.nosotros {
+
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.nosotros div {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+    
+
+}
+
+.texto-nosotros {
+ width: 300px;
+ padding: 20px;
+ 
+}
+
+
+
+.nosotros img {
+
+    width: 700px;
+    
+}
+
+.nosotros2 {
+
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.nosotros2 div {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.texto-nosotros {
+ width: 300px;
+ padding: 20px;
+ 
+}
+
+
+
+.nosotros2 img {
+
+    width: 900px;
+}
+
+
+
+
+
+footer {
+    background-color: rgb(153, 153, 153);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    text-align: center;
+    
+}
+
+
+
+.flex-container {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .flex-item {
+    width: 100px;
+    height: 200px;
+    line-height: 200px;
+    margin: 50px;
+    background-color: lightblue;
+    
+    
+    
+  }
+
