@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Outfit:wght@100..900&family=Patua+One&display=swap');
 
 
 
@@ -72,6 +74,53 @@ header nav a img {
     border: 1px solid #006ab1;
     color: #006ab1;
     border-radius: 30px;
+.hero {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  background-image: url(../img/banners/goodlike-slide7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 600px;
+
+  div {
+    width: 600px;
+    color: #006ab1;
+    text-align: left;
+
+    h1 {
+      font-size: 70px;
+      color: #d33f44;
+    }
+
+    p {
+      font-family: monospace;
+      letter-spacing: 3px;
+      width: 300px;
+      border-radius: 30px;
+      color: #d33f44;
+
+      a {
+        text-decoration: none;
+        width: auto;
+        padding: 10px 15px;
+        border: 1px solid #006ab1;
+        color: #006ab1;
+        border-radius: 30px;
+
+        &:hover {
+          background-color: #006ab1;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
 
 }
 
@@ -85,7 +134,6 @@ header nav a img {
 /* ------------ Clientes ------------*/
 
 .clientes {
-
     height: 200px;
     width: 100%;
     background-color: #ffcecc;
@@ -213,6 +261,109 @@ header nav a img {
     border-radius: 20px;
     text-decoration: none;
 }
+
+/*--------Banner 2 --------*/
+
+.banner-02 {
+
+    width: 100%;
+    height: auto;
+    padding: 100px 60px;
+    background: linear-gradient(90deg, rgba(0, 106, 177, 1) 18%, rgba(14, 31, 91, 1) 100%);
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+    
+
+}
+
+.banner-02 div {
+    width: 50%;
+    padding: 0px 100px;
+
+    
+}
+
+.banner-02 h2 {
+    font-size: 70px;
+    background: linear-gradient(90deg, #ffd5d5, #ffa0a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+
+
+}
+
+
+/* ------------Cultura ------------*/
+
+.cultura {
+
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    background: linear-gradient(90deg, rgb(238, 87, 87), #ff0019);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+
+}
+
+.cultura div {
+
+    width: 50%;
+    height: auto;
+    padding: 100px;
+
+    
+}
+
+
+.cultura h2 {
+
+    font-size: 70px;
+    font-family: "Patua One", serif;
+    background: linear-gradient(90deg, #ffd5d5, #ffa0a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+
+.mision {
+
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    background:white;
+    color: #006ab1;
+
+}
+
+.mision div {
+
+    width: 50%;
+    height: auto;
+    padding: 100px;
+
+    
+}
+
+
+.mision h2 {
+
+    font-size: 70px;
+    font-family: "Patua One", serif;
+    
+
+    
+}
+
+
 
 
 
@@ -952,15 +1103,15 @@ footer div ul li a:hover {
 
 
       .nosotros {
-        height: 700px;
-        padding: 50px 10px;
+        height: auto;
+        padding: 10px 10px;
         flex-direction: column;
-        align-items: center;
+        justify-content: flex-end;   
+        border-top: 1px solid black;
     }
 
     .nosotros div {
         width: 100%;
-        padding: 40px;
         margin: 10px 0;
         text-align: center;
     }
@@ -970,10 +1121,10 @@ footer div ul li a:hover {
         }
 
         .clientes img {
-
             width: 70px;
             height: auto;
         }
+    }
 
         .card-container {
             width: 100%;
@@ -982,4 +1133,4 @@ footer div ul li a:hover {
         .card-1 {
             width: 300px;
         }
-    }
+    

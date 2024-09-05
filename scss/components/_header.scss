@@ -1,0 +1,15 @@
+.navbar-nav {
+    .nav-link {
+      
+      color: #3a3a3a; 
+
+      &:hover {
+        color: $color-primario;
+      }
+  
+      &.active {
+        color: $color-primario;
+        font-weight: bold; 
+      }
+    }
+  }

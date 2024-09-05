@@ -1,0 +1,534 @@
+@import "./base/funcionalidades";
+@import "./components/header";
+@import "./components/footer";
+@import "./base/media";
+@import "./base/generales";
+
+.hero {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  background-image: url(../img/banners/goodlike-slide7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 600px;
+
+  div {
+    width: 600px;
+    text-align: left;
+
+    h1 {
+      font-size: 70px;
+      color: $color-primario;
+    }
+
+    h2 {
+      color: $color-secundario;
+    }
+
+    p {
+      font-family: monospace;
+      letter-spacing: 3px;
+      width: 300px;
+      border-radius: 30px;
+      color: $color-primario;
+    }
+
+    a {
+      text-decoration: none;
+      width: auto;
+      padding: 10px 15px;
+      border: 1px solid $color-secundario;
+      color: $color-secundario;
+      border-radius: 30px;
+
+      &:hover {
+        background-color: $color-secundario;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+  
+/* ------------ Clientes ------------*/
+
+.clientes {
+    height: 200px;
+    width: 100%;
+    background-color: #ffcecc;
+    display: flex;
+    justify-content: center;
+
+        .clientes img {
+
+            width: 250px;
+            height: auto;
+        }
+
+}
+
+/* Card */
+
+.service {
+    width: 100%;
+    height: auto;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    h2 {
+      color: $color-secundario;
+    }
+  
+    h5 {
+      width: 800px;
+      text-align: center;
+    }
+  }
+  
+  .card-container {
+    width: 80%;
+    padding: 30px;
+    background: linear-gradient(90deg, rgba(0, 106, 177, 1) 18%, rgba(14, 31, 91, 1) 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f0f0f0;
+  }
+  
+  .card-1 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px;
+    align-items: center;
+  
+    &:hover {
+      background-color: #16103a77;
+    }
+  
+    img {
+      width: 150px;
+      height: auto;
+      margin-right: 20px;
+    }
+  
+    .card-text {
+      align-self: center;
+      width: auto;
+    }
+  
+    a {
+      text-decoration: none;
+      width: auto;
+      padding: 10px 15px;
+      border: 1px solid #f2f2f2;
+      color: #f2f2f2;
+      border-radius: 30px;
+  
+      &:hover {
+        background-color: #f0f0f0;
+        color: $color-secundario;
+      }
+    }
+  }
+  
+/*--------Banner 2 --------*/
+
+  .banner-02 {
+    width: 100%;
+    height: auto;
+    padding: 100px 60px;
+    background: linear-gradient(90deg, rgba(0, 106, 177, 1) 18%, rgba(14, 31, 91, 1) 100%);
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+  
+    div {
+      width: 50%;
+      padding: 0 100px;
+    }
+  
+    h2 {
+      font-size: 70px;
+      background: linear-gradient(90deg, #ffd5d5, #ffa0a0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  /* ------------Cultura ------------*/
+
+  .cultura {
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    background: linear-gradient(90deg, rgb(238, 87, 87), $color-primario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+  
+    div {
+      width: 50%;
+      height: auto;
+      padding: 100px;
+    }
+  
+    h2 {
+      font-size: 70px;
+      font-family: "Patua One", serif;
+      background: linear-gradient(90deg, #ffd5d5, #ffa0a0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  
+  .mision {
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    background: white;
+    color: #006ab1;
+  
+    div {
+      width: 50%;
+      height: auto;
+      padding: 100px;
+    }
+  
+    h2 {
+      font-size: 70px;
+      font-family: "Patua One", serif;
+    }
+  }
+  
+
+
+  /* ------------Boton flotante ------------*/
+
+.icon {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10;
+
+    img {
+        width: 60px;
+        height: auto;
+    }
+
+}
+
+
+
+
+/* ------------ Servicios ------------*/
+
+.servicios-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    padding: 70px 0;
+    flex-wrap: wrap;
+  
+    p {
+      width: 30%;
+    }
+  }
+
+
+  /*----Nosotros----*/
+
+  .nosotros {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d7d7d7;
+    padding: 30px 50px;
+  
+    div {
+      width: 50%;
+      padding: 100px;
+  
+      a {
+        height: 50px;
+        width: auto;
+        padding: 10px 20px;
+        color: white;
+        background-color: $color-secundario;
+        border-radius: 20px;
+        text-decoration: none;
+      }
+    }
+  
+    img {
+      width: 90%;
+      border-radius: 20px;
+    }
+  }
+
+
+  /* Proyecto*/
+
+  .grid {
+    width: 76%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 30px 300px;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .img-grid1,
+  .img-grid6 {
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+    z-index: 3;
+    box-shadow: 0px 10px 20px #26262654;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: transform 0.3s ease;
+      z-index: 1;
+    }
+  
+    &:hover::before {
+      transform: scale(1.1);
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0) 100%);
+      z-index: 2;
+    }
+  
+    h3 {
+      color: #ffffff;
+      width: 50%;
+      font-size: 24pt;
+      z-index: 4;
+    }
+  
+    a {
+      text-decoration: none;
+      width: auto;
+      border-radius: 5px;
+      z-index: 5;
+      margin-top: auto;
+  
+      &:hover {
+        color: $color-primario;
+      }
+    }
+  
+    p {
+      background-color: rgba(255, 255, 255, 0.488);
+      color: rgb(255, 255, 255);
+      z-index: 6;
+      padding: 3px;
+      width: 20%;
+      border-radius: 20px;
+      text-align: center;
+    }
+  }
+  
+  .img-grid1 {
+    grid-column: 1 / 3;
+  
+    &::before {
+      background-image: url(../img/proyectos/proyecto1.png);
+    }
+  }
+  
+  .img-grid6 {
+    grid-column: 3 / 5;
+    background-color: #333;
+  
+    &::before {
+      background-image: url(../img/proyectos/proyecto1.png);
+    }
+  
+    a {
+      background-color: #f0f0f0;
+      color: #262626;
+      width: 250px;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  
+  .img-grid2,
+  .img-grid3,
+  .img-grid4,
+  .img-grid5 {
+    border-radius: 10px;
+  }
+  
+  .img-grid2 {
+    background-color: #eaff00;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+  }
+  
+  .img-grid3 {
+    background-color: #ff00e1;
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+  }
+  
+  .img-grid4 {
+    background-color: #00a6ff;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+  
+  .img-grid5 {
+    background-color: #ff0019;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+  }
+
+/*--------Banner 2 --------*/
+
+.banner-02 {
+    width: 100%;
+    height: auto;
+    padding: 100px 60px;
+    background: linear-gradient(90deg, rgba(0, 106, 177, 1) 18%, rgba(14, 31, 91, 1) 100%);
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+  
+    div {
+      width: 50%;
+      padding: 0 100px;
+    }
+  
+    h2 {
+      font-size: 70px;
+      background: linear-gradient(90deg, #ffd5d5, #ffa0a0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  /* Proyectos*/
+
+  .banner-01 {
+    width: 100%;
+    height: 400px;
+    background-color: #d33f44;
+    color: white;
+    overflow: hidden;
+    display: flex;
+  
+    div {
+      align-self: center;
+      width: 50%;
+      padding-left: 200px;
+  
+      h2 {
+        font-family: monospace;
+        font-size: 40px;
+      }
+  
+      h5 {
+        width: 70%;
+      }
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  
+  .project-1 {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 200px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 50px;
+  
+    div {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+      }
+  
+      h4 {
+        color: $color-primario;
+        font-family: monospace;
+        letter-spacing: 5px;
+      }
+  
+      a {
+        height: 50px;
+        width: auto;
+        padding: 10px 20px;
+        color: white;
+        background-color: #00a6ff;
+        border-radius: 20px;
+        text-decoration: none;
+      }
+  
+      &:first-child {
+        grid-column: 1 / 3;
+      }
+  
+      &:nth-child(4) {
+        grid-column: 2 / 4;
+        background-color: #e9e9e9;
+        padding: 20px;
+        border-radius: 15px;
+      }
+    }
+  }
+  

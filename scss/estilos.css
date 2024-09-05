@@ -1,0 +1,38 @@
+.hero {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  background-image: url(../img/banners/goodlike-slide7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 600px;
+}
+.hero div {
+  width: 600px;
+  color: #006ab1;
+  text-align: left;
+}
+.hero div h1 {
+  font-size: 70px;
+  color: #d33f44;
+}
+.hero div h1 p {
+  font-family: monospace;
+  letter-spacing: 3px;
+  width: 300px;
+  border-radius: 30px;
+  color: #d33f44;
+}
+.hero div h1 p a {
+  text-decoration: none;
+  width: auto;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #006ab1;
+  color: #006ab1;
+  border-radius: 30px;
+}/*# sourceMappingURL=estilos.css.map */
